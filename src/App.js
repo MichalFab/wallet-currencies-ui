@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import './App.css';
-import Currencies from './components/Currencies'
+import Login from './components/Login'
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <header className="App-header">
+                <header className="Header">
                     <h1 className="App-title">Currencies</h1>
                 </header>
-                <Currencies></Currencies>
+                <Login/>
             </div>
         )
     }
